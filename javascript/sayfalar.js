@@ -29,7 +29,7 @@ iletisimbuton.onclick = function () {
   duvarkagidi.style.display = 'none'
 }
 
-fotograflarbuton.onclick = function () { 
+duvarkagidibuton.onclick = function () { 
   anamenu.style.display = 'none'
   hakkinda.style.display = 'none'
   iletisim.style.display = 'none'
