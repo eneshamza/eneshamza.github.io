@@ -59,7 +59,21 @@
         border: none;
         padding: 5px;
         padding-bottom: 0px;
-        width: 49.5em;
+        /* Mobil Ekranlar İçin */
+        @media screen and (max-width: 600px) {
+            fieldset {
+                width: 100%;
+                box-sizing: border-box; /* Kutu modelini etkinleştirme */
+            }
+        }
+
+        /* Büyük Ekranlar İçin */
+        @media screen and (min-width: 601px) {
+            fieldset {
+                width: 45%; /* veya istediğiniz genişlikte değer */
+                box-sizing: border-box; /* Kutu modelini etkinleştirme */
+            }
+          }
         }
     </style>
 </head>
