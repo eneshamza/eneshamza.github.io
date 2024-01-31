@@ -58,9 +58,10 @@
         border: none;
         padding: 5px;
         padding-bottom: 0px;
+        }
         /* Mobil Ekranlar İçin */
         @media screen and (max-width: 600px) {
-            fieldset {
+            fieldset, ul{
                 width: 100%;
                 box-sizing: border-box; /* Kutu modelini etkinleştirme */
             }
@@ -68,12 +69,11 @@
 
         /* Büyük Ekranlar İçin */
         @media screen and (min-width: 601px) {
-            fieldset {
+            fieldset, ul{
                 width: 45%; /* veya istediğiniz genişlikte değer */
                 box-sizing: border-box; /* Kutu modelini etkinleştirme */
             }
           }
-        }
     </style>
 </head>
 <body>
