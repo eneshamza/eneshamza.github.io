@@ -6,7 +6,7 @@ var video=document.getElementById('video')
 var anamenubuton = document.getElementById('anamenubuton')
 var hakkindabuton = document.getElementById('hakkindabuton')
 var iletisimbuton = document.getElementById('iletisimbuton')
-var videobuton = document.getElementById('video')
+var videobuton = document.getElementById('videobuton')
 
 anamenubuton.onclick = function () { 
   anamenu.style.display = 'block'
