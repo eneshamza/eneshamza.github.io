@@ -26,7 +26,7 @@ hakkindabuton.onclick = function () {
   gelistirdiklerim.style.display = 'none'
   document.getElementById("hakkindabuton").classList.add('active');
   document.getElementById("iletisimbuton").classList.remove('active');
-  document.getElementById(gelistirdiklerimbuton").classList.remove('active');
+  document.getElementById("gelistirdiklerimbuton").classList.remove('active');
   document.getElementById("anamenubuton").classList.remove('active');
 }
 
