@@ -7,7 +7,7 @@ var takaslik=document.getElementById('takaslik')
 var anamenubuton = document.getElementById('anamenubuton')
 var hakkindabuton = document.getElementById('hakkindabuton')
 var iletisimbuton = document.getElementById('iletisimbuton')
-var gelistirdiklerimbuton = document.getElementById('galistirdiklerimbuton')
+var gelistirdiklerimbuton = document.getElementById('gelistirdiklerimbuton')
 var takaslikbuton = document.getElementById('takaslikbuton')
 
 anamenubuton.onclick = function () { 
