@@ -1,1 +1,84 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=0.9">
+    <meta charset="UTF-8">
+    <title>Market</title>
+    <meta name="theme-color" content="#6b86b3">
+    <link rel="icon" type="image/x-icon" href="../assets/favicon.webp">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico">
+    <style>
+        body{
+        background-color: lightyellow;
+        font-family: sans-serif;
+        }
+        h1{
+        font-family: "Pacifico";
+        font-size: 5em;
+        text-align: center;
+        margin: 0px;
+        }
+        li{
+        cursor: pointer;
+        }
+        ul,fieldset{
+        list-style-type: none;
+        margin: auto;
+        padding: 0;
+        overflow: hidden;
+        background-color: #ffcc54;
+        border-radius: 5px;
+        }
+        li{
+        float: left;
+        }
+        li a{
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        }
+        li a:hover:not(.active){
+        background-color: #435573;
+        }
+        .active{
+        background-color: #6b86b3;
+        }
+        div{
+        background-color: lightgreen;
+        border-radius: 4px;
+        }
+        img{
+        width: inherit;
+        }
+        fieldset{
+        border: none;
+        padding: 5px;
+        padding-bottom: 0px;
+        }
+        /* Mobil Ekranlar İçin */
+        @media screen and (max-width: 600px) {
+            fieldset, ul{
+                width: 100%;
+                box-sizing: border-box; /* Kutu modelini etkinleştirme */
+            }
+        }
 
+        /* Büyük Ekranlar İçin */
+        @media screen and (min-width: 601px) {
+            fieldset, ul{
+                width: 45%; /* veya istediğiniz genişlikte değer */
+                box-sizing: border-box; /* Kutu modelini etkinleştirme */
+            }
+          }
+    </style>
+</head>
+<body>
+    <h1>Market</h1>
+    <br>
+    <fieldset>
+    <p></p>
+    </fieldset>
+</body>
+</html>
